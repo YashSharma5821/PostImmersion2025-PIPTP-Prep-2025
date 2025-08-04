@@ -1,0 +1,30 @@
+//Approach 1
+
+//Solution
+class Solution {
+    public int singleNumber(int[] nums) {
+         int res = 0;
+        for (int n : nums) {
+            res ^= n;
+        }
+        return res; 
+    }
+}
+
+//Explanation
+
+
+
+
+
+
+
+//Approach 2
+//Solution
+
+//Explanation
+
+
+
+
+
